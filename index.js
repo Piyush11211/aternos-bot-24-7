@@ -1,5 +1,5 @@
-const mineflayer = require('mineflayer')
-const cmd = require('mineflayer-cmd').plugin
+const mineflayer = require('mineplayer')
+const cmd = require('mineplayer-cmd').plugin
 const fs = require('fs');
 let rawdata = fs.readFileSync('config.json');
 let data = JSON.parse(rawdata);
